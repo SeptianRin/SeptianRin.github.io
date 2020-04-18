@@ -1,23 +1,174 @@
+
 <!DOCTYPE html>
-<html>
+<html class="html-fs nightmode-auto" lang="en">
 <head>
-<title>Sept Documentation</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110940506-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-110940506-1');
+  </script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <title>Septianrin Works</title>
+
+  <meta name="description" content="Coming Soon with Countdown | Brutal - A Brutalist HTML 5 Template">
+  <meta name="abstract"    content="Coming Soon with Countdown | Brutal - A Brutalist HTML 5 Template">
+  <meta name="keywords" content="Brutalist HTML 5 Template, Bootstrap v4, brutalist theme, website theme, brutalist website theme">
+  <meta name="author" content="MP Web - MichaelPalmerWebDesign.com">
+
+  <base href="https://www.brutalist.design">
+
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+
+  <!--Nightmode - detects time at user location and sets / unsets nightmode-->
+  <script src="./js/nightmode.js"></script>
+
+  <!--Main css-->
+  <link id="main-css" data-mode="./css/main.nightmode.min.css" rel="stylesheet" href="./css/main.min.css">
+
+  <!--Font styles-->
+  <!--<link rel="stylesheet" href="./css/font-styles/font-style-1.css">-->
+  <!--<link rel="stylesheet" href="./css/font-styles/font-style-2.css">-->
+  <!--<link rel="stylesheet" href="./css/font-styles/font-style-3.css">-->
+  <!--<link rel="stylesheet" href="./css/font-styles/font-style-4.css">-->
+  <!--<link rel="stylesheet" href="./css/font-styles/font-style-5.css">-->
+
+
 </head>
 
-<body>
-Hehe still under construction
-<br>
-  <br>
-  <br>
-<a href = "../cv">cv</a>
-  <br>
-<a href= "../sinkit">GGJ Game 2018 - Sinkit</a>
-  <br>
-<a href = "../CTF/CTF/">CTF Stuff</a>
-  <br>
-<a href = "../nyampah">Game Nyampah</a>
+<body class="of-hidden body-fs coming-soon coming-soon-countdown">
+
+  <div class="style-toggle">
+    <strong class="style-toggle-title" data-title="night">day</strong>
+    <br/>
+    <span class="day" title="day"></span>
+  </div>
+
+	<!--Modal-->
+  <div class="modal fade contact-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+
+        <!--Modal header-->
+        <div class="modal-header">
+
+          <!--Modal title-->
+          <h5 class="modal-title text-center">Contact</h5>
+
+          <!--Modal close-->
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div><!--end modal header-->
+
+        <!--Modal body-->
+        <form class="contact-form" method="post" action="./php/contact.php">
+          <span class="sending">We're Sending Your Message</span>
+          <span class="sent">Message received, we'll be in touch.</span>
+          <div class="modal-body">
+            <div class="form-group">
+              <label for="contact-name">Your name</label>
+              <input type="text" class="form-control" id="contact-name" name="contact-name" placeholder="name" required>
+
+              <label for="contact-email">Your email</label>
+              <input type="email" class="form-control" id="contact-email" name="contact-email" placeholder="email" required>
+
+            </div>
+            <div class="form-group">
+              <label for="message">Your message</label>
+              <textarea class="form-control" name="message" id="message" placeholder="message"></textarea>
+            </div>
+          </div><!--End modal body-->
+
+          <!--Modal footer-->
+          <div class="modal-footer text-right">
+            <button type="submit" class="btn btn-primary">Send</button>
+          </div><!--end modal footer-->
+        </form>
+      </div><!--end modal content-->
+    </div>
+  </div><!--end modal-->
+
+
+  <!--preloader-->
+  <div class="preloader preloader-xl">
+    <div>
+      <p class="loading-text">
+        <span>S</span>
+        <span>e</span>
+        <span>p</span>
+        <span>t</span>
+        <span>i</span>
+        <span>a</span>
+        <span>n</span>
+        <span>r</span>
+        <span>i</span>
+        <span>n</span>
+      </p>
+      <p>is loading</p>
+    </div>
+  </div>
+
+
+  <section id="fullscreen" class="fs-coming-soon coming-soon-countdown">
+    <div>
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-12">
+            <div class="timer-wrap-outer">
+              <div class="timer-wrap" data-start-time="2020/12/31 11:00:00" data-lng-days="DAYS" data-lng-hours="HOURS" data-lng-mins="MINUTES" data-lng-secs="SECONDS"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <h3>Septianrin</h3>
+            <h1 class="stretch-text"><span class="stretch_it">Works</span></h1>
+            <h2><a href= "../sinkit">Sink It</a>  |  <a href = "../nyampah">Nyampah</a></h2>
+          </div>
+          <div class="col-lg-6">
+            <form class="sub-form">
+              <span class="sending">Thanks for subscribing!</span>
+              <span class="sent">You are subscribed!</span>
+              <h4>Subscribe</h4>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Your name" required>
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Your email" required>
+              </div>
+              <div class="text-right">
+                <button type="submit" class="btn btn-primary">Get Notified</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <p class="coming-soon-contact"><a href="#" data-toggle="modal" data-target=".contact-modal">Contact</a></p>
+    <p class="coming-soon-copyright"><a target="_blank" href="https://www.michaelpalmerwebdesign.com">&copy;2020 MP Web</a></p>
+
+  </section>
+
+  <!--jquery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+  <!--Countdown timer-->
+  <script src="./js/vendor/jquery.countdown.min.js"></script>
+
+  <!--Main js-->
+  <script src="./js/main.min.js"></script>
+
 </body>
 
-  <footer>&copy <a href="github.com/septianrin target = "_blank">SeptianRin</a> </footer>
 </html>
-
